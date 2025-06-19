@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "put your session id here",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~FFAXTYIb#BUKBhTVQw5_CcFD-LHiOsKACLM7lcsJVFrX5P3khIWg",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -44,11 +44,11 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custom emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // choose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links without removing member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "237658222828",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "ADRIAN",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // bot description    
@@ -64,7 +64,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
 MODE: process.env.MODE || "public",
 // public/private/inbox/group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // kick user if share link 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // auto voice messages
@@ -74,7 +74,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // show typing status   
